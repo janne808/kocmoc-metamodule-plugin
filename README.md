@@ -1,6 +1,6 @@
 ![Build MetaModule Plugin](https://github.com/janne808/kocmoc-metamodule-plugin/actions/workflows/build-metamodule-plugin.yml/badge.svg)
 
-# Kocmoc Metamodule Plugin
+# Kocmoc MetaModule Plugin
 
 Copyright (c) 2025 Janne Heikkarainen (janne808@radiofreerobotron.net)
 
