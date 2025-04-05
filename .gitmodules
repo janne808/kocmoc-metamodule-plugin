@@ -1,0 +1,3 @@
+[submodule "kocmoc-rack-modules"]
+	path = kocmoc-rack-modules
+	url = https://github.com/janne808/kocmoc-rack-modules
