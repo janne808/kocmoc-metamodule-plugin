@@ -1,0 +1,19 @@
+{
+    "MetaModulePluginMaintainer": "Janne Heikkarainen",
+    "MetaModulePluginMaintainerEmail": "janne808@radiofreerobotron.net",
+    "MetaModulePluginMaintainerUrl": "https://github.com/janne808",
+    "MetaModuleDescription": "Kocmoc Metamodule Plugin",
+    "MetaModuleIncludedModules": [
+        "SVF",
+        "TRG",
+        "LADR",
+        "OP",
+        "PHASR",
+        "MUL",
+        "SKF",
+        "DDLY",
+        "uSVF",
+	"uLADR",
+	"DIOD"
+    ]
+}
