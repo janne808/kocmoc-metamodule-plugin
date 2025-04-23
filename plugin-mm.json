@@ -1,19 +1,66 @@
 {
-    "MetaModulePluginMaintainer": "Janne Heikkarainen",
-    "MetaModulePluginMaintainerEmail": "janne808@radiofreerobotron.net",
-    "MetaModulePluginMaintainerUrl": "https://github.com/janne808",
-    "MetaModuleDescription": "Kocmoc Metamodule Plugin",
-    "MetaModuleIncludedModules": [
-        "SVF",
-        "TRG",
-        "LADR",
-        "OP",
-        "PHASR",
-        "MUL",
-        "SKF",
-        "DDLY",
-        "uSVF",
-	"uLADR",
-	"DIOD"
-    ]
+  "MetaModuleBrandName": "kocmoc",
+  "MetaModuleBrandSlug": "kocmoc",
+  "MetaModulePluginMaintainer": "Janne Heikkarainen",
+  "MetaModulePluginMaintainerEmail": "janne808@radiofreerobotron.net",
+  "MetaModulePluginMaintainerUrl": "https://github.com/janne808",
+  "MetaModuleDescription": "Kocmoc Metamodule Plugin",
+  "MetaModuleIncludedModules":
+  [
+    {
+      "slug": "SVF-1",
+      "name": "SVF",
+      "displayName": "State variable filter"
+    },
+    {
+      "slug": "uSVF",
+      "name": "uSVF",
+      "displayName": "State variable filter"
+    },
+    {
+      "slug": "TRG",
+      "name": "TRG",
+      "displayName": "Trigger sequencer"
+    },
+    {
+      "slug": "LADR",
+      "name": "LADR",
+      "displayName": "4-pole ladder filter"
+    },
+    {
+      "slug": "DIOD",
+      "name": "DIOD",
+      "displayName": "4-pole diode ladder filter"
+    },
+    {
+      "slug": "uLADR",
+      "name": "uLADR",
+      "displayName": "4-pole ladder filter"
+    },
+    {
+      "slug": "OP",
+      "name": "OP",
+      "displayName": "Phase-modulation operator"
+    },
+    {
+      "slug": "PHASR",
+      "name": "PHASR",
+      "displayName": "Phasor oscillator"
+    },
+    {
+      "slug": "MUL",
+      "name": "MUL",
+      "displayName": "Multiplier"
+    },
+    {
+      "slug": "SKF",
+      "name": "SKF",
+      "displayName": "Sallen-Key filter"
+    },
+    {
+      "slug": "DDLY",
+      "name": "DDLY",
+      "displayName": "Digital delay"
+    }
+  ]
 }
