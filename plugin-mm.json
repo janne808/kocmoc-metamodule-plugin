@@ -9,47 +9,47 @@
   [
     {
       "slug": "SVF-1",
-      "name": "SVF",
+      "name": "SVF"
     },
     {
       "slug": "uSVF",
-      "name": "uSVF",
+      "name": "uSVF"
     },
     {
       "slug": "TRG",
-      "name": "TRG",
+      "name": "TRG"
     },
     {
       "slug": "LADR",
-      "name": "LADR",
+      "name": "LADR"
     },
     {
       "slug": "DIOD",
-      "name": "DIOD",
+      "name": "DIOD"
     },
     {
       "slug": "uLADR",
-      "name": "uLADR",
+      "name": "uLADR"
     },
     {
       "slug": "OP",
-      "name": "OP",
+      "name": "OP"
     },
     {
       "slug": "PHASR",
-      "name": "PHASR",
+      "name": "PHASR"
     },
     {
       "slug": "MUL",
-      "name": "MUL",
+      "name": "MUL"
     },
     {
       "slug": "SKF",
-      "name": "SKF",
+      "name": "SKF"
     },
     {
       "slug": "DDLY",
-      "name": "DDLY",
+      "name": "DDLY"
     }
   ]
 }
