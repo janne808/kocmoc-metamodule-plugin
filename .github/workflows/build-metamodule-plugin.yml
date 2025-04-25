@@ -46,7 +46,7 @@ jobs:
       - name: Install linux dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install ninja-build
+          sudo apt-get install ninja-build jq
 
       - name: Set Release Version
         if: startsWith(github.ref, 'refs/tags/')
@@ -54,6 +54,8 @@ jobs:
 
       - name: Build
         run: |
+	  # Validate plugin JSON
+	  jq . -e plugin-mm.json >/dev/null || exit N
           mkdir -p metamodule-plugins
           git clone -b ${{ inputs.SDK_branch }} https://github.com/4ms/metamodule-plugin-sdk --recursive 
           cmake -B build -G Ninja -DMETAMODULE_SDK_DIR=metamodule-plugin-sdk
