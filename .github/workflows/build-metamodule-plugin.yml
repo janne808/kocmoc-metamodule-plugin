@@ -55,7 +55,7 @@ jobs:
       - name: Build
         run: |
           # Validate plugin JSON
-          jq . -e plugin-mm.json >/dev/null || exit N
+          jq . -e plugin-mm.json >/dev/null || exit 1
           mkdir -p metamodule-plugins
           git clone -b ${{ inputs.SDK_branch }} https://github.com/4ms/metamodule-plugin-sdk --recursive 
           cmake -B build -G Ninja -DMETAMODULE_SDK_DIR=metamodule-plugin-sdk
