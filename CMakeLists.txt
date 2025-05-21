@@ -8,7 +8,7 @@ include(metamodule-plugin-sdk/plugin.cmake)
 #########################################################
 # Step 2: Define your project name, vesion, etc
 project(KocmocMetaModulePlugin
-    VERSION     2.0.9
+    VERSION     2.0.8
     DESCRIPTION "Kocmoc Plugin for MetaModule"
     LANGUAGES   C CXX ASM
 )
