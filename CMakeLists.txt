@@ -8,7 +8,7 @@ include(metamodule-plugin-sdk/plugin.cmake)
 #########################################################
 # Step 2: Define your project name, vesion, etc
 project(KocmocMetaModulePlugin
-    VERSION     2.0.8
+    VERSION     2.0.9
     DESCRIPTION "Kocmoc Plugin for MetaModule"
     LANGUAGES   C CXX ASM
 )
@@ -28,11 +28,14 @@ target_sources(kocmoc
 	${SOURCE_DIR}/OP.cpp
 	${SOURCE_DIR}/PHASR.cpp
 	${SOURCE_DIR}/SKF.cpp
+	${SOURCE_DIR}/uSKF.cpp
 	${SOURCE_DIR}/SVF.cpp
 	${SOURCE_DIR}/TRG.cpp
 	${SOURCE_DIR}/uSVF.cpp
 	${SOURCE_DIR}/uLADR.cpp
 	${SOURCE_DIR}/DIOD.cpp
+	${SOURCE_DIR}/uDIOD.cpp
+	${SOURCE_DIR}/uPLAT.cpp
 
 	${SOURCE_DIR}/fir.cpp
 	${SOURCE_DIR}/iir.cpp
